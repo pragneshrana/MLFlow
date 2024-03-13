@@ -71,4 +71,4 @@ if __name__ == "__main__":
         mlflow.log_metric("mae", mae)
 
         #tracking mlflow log-models
-        mlflow.sklearn.log_model(lr, "mymodel")
+        mlflow.sklearn.log_model(lr,"mymodel")
